@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		703C3C6526617ED600E5921E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703C3C6426617ED600E5921E /* AppDelegate.swift */; };
+		703C3C6726617ED600E5921E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703C3C6626617ED600E5921E /* SceneDelegate.swift */; };
+		703C3C6926617ED600E5921E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703C3C6826617ED600E5921E /* ViewController.swift */; };
+		703C3C6C26617ED600E5921E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703C3C6A26617ED600E5921E /* Main.storyboard */; };
+		703C3C6E26617ED700E5921E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 703C3C6D26617ED700E5921E /* Assets.xcassets */; };
+		703C3C7126617ED700E5921E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703C3C6F26617ED700E5921E /* LaunchScreen.storyboard */; };
+		703C3C7C26617ED700E5921E /* Evidenica_2_UlisesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703C3C7B26617ED700E5921E /* Evidenica_2_UlisesTests.swift */; };
+		703C3C8726617ED700E5921E /* Evidenica_2_UlisesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703C3C8626617ED700E5921E /* Evidenica_2_UlisesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		703C3C7826617ED700E5921E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 703C3C5926617ED600E5921E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 703C3C6026617ED600E5921E;
+			remoteInfo = Evidenica_2_Ulises;
+		};
+		703C3C8326617ED700E5921E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 703C3C5926617ED600E5921E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 703C3C6026617ED600E5921E;
+			remoteInfo = Evidenica_2_Ulises;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		703C3C6126617ED600E5921E /* Evidenica_2_Ulises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Evidenica_2_Ulises.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		703C3C6426617ED600E5921E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		703C3C6626617ED600E5921E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		703C3C6826617ED600E5921E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		703C3C6B26617ED600E5921E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		703C3C6D26617ED700E5921E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		703C3C7026617ED700E5921E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		703C3C7226617ED700E5921E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		703C3C7726617ED700E5921E /* Evidenica_2_UlisesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Evidenica_2_UlisesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		703C3C7B26617ED700E5921E /* Evidenica_2_UlisesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evidenica_2_UlisesTests.swift; sourceTree = "<group>"; };
+		703C3C7D26617ED700E5921E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		703C3C8226617ED700E5921E /* Evidenica_2_UlisesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Evidenica_2_UlisesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		703C3C8626617ED700E5921E /* Evidenica_2_UlisesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evidenica_2_UlisesUITests.swift; sourceTree = "<group>"; };
+		703C3C8826617ED700E5921E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		703C3C5E26617ED600E5921E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703C3C7426617ED700E5921E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703C3C7F26617ED700E5921E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		703C3C5826617ED600E5921E = {
+			isa = PBXGroup;
+			children = (
+				703C3C6326617ED600E5921E /* Evidenica_2_Ulises */,
+				703C3C7A26617ED700E5921E /* Evidenica_2_UlisesTests */,
+				703C3C8526617ED700E5921E /* Evidenica_2_UlisesUITests */,
+				703C3C6226617ED600E5921E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		703C3C6226617ED600E5921E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				703C3C6126617ED600E5921E /* Evidenica_2_Ulises.app */,
+				703C3C7726617ED700E5921E /* Evidenica_2_UlisesTests.xctest */,
+				703C3C8226617ED700E5921E /* Evidenica_2_UlisesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		703C3C6326617ED600E5921E /* Evidenica_2_Ulises */ = {
+			isa = PBXGroup;
+			children = (
+				703C3C6426617ED600E5921E /* AppDelegate.swift */,
+				703C3C6626617ED600E5921E /* SceneDelegate.swift */,
+				703C3C6826617ED600E5921E /* ViewController.swift */,
+				703C3C6A26617ED600E5921E /* Main.storyboard */,
+				703C3C6D26617ED700E5921E /* Assets.xcassets */,
+				703C3C6F26617ED700E5921E /* LaunchScreen.storyboard */,
+				703C3C7226617ED700E5921E /* Info.plist */,
+			);
+			path = Evidenica_2_Ulises;
+			sourceTree = "<group>";
+		};
+		703C3C7A26617ED700E5921E /* Evidenica_2_UlisesTests */ = {
+			isa = PBXGroup;
+			children = (
+				703C3C7B26617ED700E5921E /* Evidenica_2_UlisesTests.swift */,
+				703C3C7D26617ED700E5921E /* Info.plist */,
+			);
+			path = Evidenica_2_UlisesTests;
+			sourceTree = "<group>";
+		};
+		703C3C8526617ED700E5921E /* Evidenica_2_UlisesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				703C3C8626617ED700E5921E /* Evidenica_2_UlisesUITests.swift */,
+				703C3C8826617ED700E5921E /* Info.plist */,
+			);
+			path = Evidenica_2_UlisesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		703C3C6026617ED600E5921E /* Evidenica_2_Ulises */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703C3C8B26617ED700E5921E /* Build configuration list for PBXNativeTarget "Evidenica_2_Ulises" */;
+			buildPhases = (
+				703C3C5D26617ED600E5921E /* Sources */,
+				703C3C5E26617ED600E5921E /* Frameworks */,
+				703C3C5F26617ED600E5921E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Evidenica_2_Ulises;
+			productName = Evidenica_2_Ulises;
+			productReference = 703C3C6126617ED600E5921E /* Evidenica_2_Ulises.app */;
+			productType = "com.apple.product-type.application";
+		};
+		703C3C7626617ED700E5921E /* Evidenica_2_UlisesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703C3C8E26617ED700E5921E /* Build configuration list for PBXNativeTarget "Evidenica_2_UlisesTests" */;
+			buildPhases = (
+				703C3C7326617ED700E5921E /* Sources */,
+				703C3C7426617ED700E5921E /* Frameworks */,
+				703C3C7526617ED700E5921E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				703C3C7926617ED700E5921E /* PBXTargetDependency */,
+			);
+			name = Evidenica_2_UlisesTests;
+			productName = Evidenica_2_UlisesTests;
+			productReference = 703C3C7726617ED700E5921E /* Evidenica_2_UlisesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		703C3C8126617ED700E5921E /* Evidenica_2_UlisesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703C3C9126617ED700E5921E /* Build configuration list for PBXNativeTarget "Evidenica_2_UlisesUITests" */;
+			buildPhases = (
+				703C3C7E26617ED700E5921E /* Sources */,
+				703C3C7F26617ED700E5921E /* Frameworks */,
+				703C3C8026617ED700E5921E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				703C3C8426617ED700E5921E /* PBXTargetDependency */,
+			);
+			name = Evidenica_2_UlisesUITests;
+			productName = Evidenica_2_UlisesUITests;
+			productReference = 703C3C8226617ED700E5921E /* Evidenica_2_UlisesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		703C3C5926617ED600E5921E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = user172369;
+				TargetAttributes = {
+					703C3C6026617ED600E5921E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					703C3C7626617ED700E5921E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 703C3C6026617ED600E5921E;
+					};
+					703C3C8126617ED700E5921E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 703C3C6026617ED600E5921E;
+					};
+				};
+			};
+			buildConfigurationList = 703C3C5C26617ED600E5921E /* Build configuration list for PBXProject "Evidenica_2_Ulises" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 703C3C5826617ED600E5921E;
+			productRefGroup = 703C3C6226617ED600E5921E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				703C3C6026617ED600E5921E /* Evidenica_2_Ulises */,
+				703C3C7626617ED700E5921E /* Evidenica_2_UlisesTests */,
+				703C3C8126617ED700E5921E /* Evidenica_2_UlisesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		703C3C5F26617ED600E5921E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703C3C7126617ED700E5921E /* LaunchScreen.storyboard in Resources */,
+				703C3C6E26617ED700E5921E /* Assets.xcassets in Resources */,
+				703C3C6C26617ED600E5921E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703C3C7526617ED700E5921E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703C3C8026617ED700E5921E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		703C3C5D26617ED600E5921E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703C3C6926617ED600E5921E /* ViewController.swift in Sources */,
+				703C3C6526617ED600E5921E /* AppDelegate.swift in Sources */,
+				703C3C6726617ED600E5921E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703C3C7326617ED700E5921E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703C3C7C26617ED700E5921E /* Evidenica_2_UlisesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703C3C7E26617ED700E5921E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703C3C8726617ED700E5921E /* Evidenica_2_UlisesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		703C3C7926617ED700E5921E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 703C3C6026617ED600E5921E /* Evidenica_2_Ulises */;
+			targetProxy = 703C3C7826617ED700E5921E /* PBXContainerItemProxy */;
+		};
+		703C3C8426617ED700E5921E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 703C3C6026617ED600E5921E /* Evidenica_2_Ulises */;
+			targetProxy = 703C3C8326617ED700E5921E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		703C3C6A26617ED600E5921E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				703C3C6B26617ED600E5921E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		703C3C6F26617ED700E5921E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				703C3C7026617ED700E5921E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		703C3C8926617ED700E5921E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		703C3C8A26617ED700E5921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		703C3C8C26617ED700E5921E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Evidenica_2_Ulises/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ulises.Evidenica-2-Ulises";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		703C3C8D26617ED700E5921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Evidenica_2_Ulises/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ulises.Evidenica-2-Ulises";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		703C3C8F26617ED700E5921E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Evidenica_2_UlisesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ulises.Evidenica-2-UlisesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Evidenica_2_Ulises.app/Evidenica_2_Ulises";
+			};
+			name = Debug;
+		};
+		703C3C9026617ED700E5921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Evidenica_2_UlisesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ulises.Evidenica-2-UlisesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Evidenica_2_Ulises.app/Evidenica_2_Ulises";
+			};
+			name = Release;
+		};
+		703C3C9226617ED700E5921E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Evidenica_2_UlisesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ulises.Evidenica-2-UlisesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Evidenica_2_Ulises;
+			};
+			name = Debug;
+		};
+		703C3C9326617ED700E5921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Evidenica_2_UlisesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ulises.Evidenica-2-UlisesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Evidenica_2_Ulises;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		703C3C5C26617ED600E5921E /* Build configuration list for PBXProject "Evidenica_2_Ulises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703C3C8926617ED700E5921E /* Debug */,
+				703C3C8A26617ED700E5921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		703C3C8B26617ED700E5921E /* Build configuration list for PBXNativeTarget "Evidenica_2_Ulises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703C3C8C26617ED700E5921E /* Debug */,
+				703C3C8D26617ED700E5921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		703C3C8E26617ED700E5921E /* Build configuration list for PBXNativeTarget "Evidenica_2_UlisesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703C3C8F26617ED700E5921E /* Debug */,
+				703C3C9026617ED700E5921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		703C3C9126617ED700E5921E /* Build configuration list for PBXNativeTarget "Evidenica_2_UlisesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703C3C9226617ED700E5921E /* Debug */,
+				703C3C9326617ED700E5921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 703C3C5926617ED600E5921E /* Project object */;
+}
